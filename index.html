@@ -3,73 +3,133 @@
 <link rel="stylesheet" type="text/css" href="normalize.css">
 <style>
 
-div #everything {
-    margin: 20px;
+#everything {
+    margin: 16px;
+    width: 432px;
 
+}
+
+h2 {
+    font-size: 18px;
+    margin: 0;
 }
 
 h3 {
-    margin: 0;
+    float: left;
+    width: 96px;
+    margin: 0 0 4px 0;
     font-size: 16px;
-    text-decoration: none;
+    font-weight: normal;
+    font-style: italic;
 }
 
 h4 {
-    margin: 0;
+    margin: 0 0 3px 0;
     font-size: 16px;
+    font-weight: normal;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: #5500ff;
+}
+
+a:visited {
+    color: #4900db;
+}
+
+a:hover {
+    color: #9900ff;
 }
 
 .description {
-    color: #333;
+    color: #555;
     margin: 0;
-    font-size: 16px;
+    font-size: 14px;
+}
+
+.description a {
+    color: #555;
+}
+
+.description a:visited {
+    color: #4d489d;
+}
+
+.description a:hover {
+    color: #ff00ff;
+}
+
+.descriptbox {
+    float: left;
+    text-align: left;
+}
+
+.listitem {
+    height: 60px;
 }
 
 </style>
 </head>
 <body>
     <div id="everything">
-       <b>Rose Shimomura</b> 
-       <br>
-       Writer 
+       <h2>Rose Shimomura</h2> 
+       <p>Writer</p>
         <br>
         <hr> 
         <br>
-        <h3><i>An app</i></h3>
-                <h4><a href="tropmag.com/2017/vx/">"Stash"</a></h4>
-                <p class="description">I redesigned the Even app.</p>
-                <br>
+        <div class="listitem">
+            <h3>An app</h3>
+            <div class="descriptbox">
+                <h4><a href="tropmag.com/2017/vx/">Stash</a></h4>
+                <p class="description">I redesigned (and renamed) <a href="https://even.com/">Even's app</a></p>
+            </div>
+        </div>
 
-         <h3><i>A creative concept</i></h3>
+        <div class="listitem">
+            <h3>A concept</h3>
+            <div class="descriptbox">
                 <h4><a href="tropmag.com/2017/vx/">What will you sell?</a></h4>
-                <p class="description">I concepted eBay’s 2018 spring campaign for C2C sellers.</p>
-                <br>
+                <p class="description">I concepted eBay’s 2018 spring campaign for C2C sellers</p>
+            </div>
+        </div>
 
-        <h3><i>A side job</i></h3>
+        <div class="listitem">
+            <h3>A side job</h3>
+            <div class="descriptbox">
                 <h4><a href="https://amsterlit.com/about/">Betsy Amster's</a> first reader</h4>
-                <p class="description">I decide what the literary agent reads next.</p>
-                <br>
+                <p class="description">I decide what the literary agent reads next</p>
+            </div>
+        </div>
 
-        <h3><i>A novel</i></h3>
-                <h4><i>Misery Boy</i></h4>
-                <p class="description">I’m publishing a literary novel with <a href="https://713books.com/">7.13 Books</a>.</p>
-                <br>
+        <div class="listitem">
+            <h3>A novel</h3>
+            <div class="descriptbox">
+                <h4>Misery Boy</h4>
+                <p class="description">I’m publishing a literary novel with <a href="https://713books.com/">7.13 Books</a></p>
+            </div>
+        </div>
 
-        <h3><i>A satire</i></h3>
+        <div class="listitem">
+            <h3>A satire</h3>
+            <div class="descriptbox">
                 <h4><a href="tropmag.com/2017/vx/">"VX"</a></h4>
-                 <br>
-                 <p class="description">Bob Dylan goes toe-to-toe with the US president.</p>
-                  <br>
-        <br>
+                 <p class="description">Bob Dylan goes toe-to-toe with the US president</p>
+            </div>
+        </div>
+
         <hr> 
         <br>
-        <h4>My <a href="https://twitter.com/deluminant">Twitter</a></h4>
+        <p>My <a href="https://twitter.com/deluminant">Twitter</a></p>
         <br>
 
-        <h4>My <a href="XXXXXXXX">C.V.</a></h4>
+        <p>My <a href="XXXXXXXX">C.V.</a></p>
         <br>
 
-        <h4><a href="mailto:roseshimomura@gmail.com">Contact me</a></h4>
+        <p><a href="mailto:roseshimomura@gmail.com">Contact me</a></p>
     </div>
 </body>
 </html>
